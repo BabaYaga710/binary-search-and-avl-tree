@@ -19,6 +19,9 @@ unless the command is to quit.
   
 4. If an invalid command is entered, print “Invalid command” and then print out the prompt to wait for the next command. 
 
+LINK TO DICTIONARY: FILE WAS TOO BIG TO UPLOAD 
+https://drive.google.com/file/d/17zi9bHOi4YrhvPzFFhFLekEcB8LEh_5E/view
+
 
 Notes from Tom: 
 So this repository has the AVL tree class that already does all the self balancing, has the insert methods the search methods, and it
