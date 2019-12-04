@@ -1,1 +1,28 @@
 Binary Search Tree and AVL Tree written in Java
+
+Create a program called Dictionary.java that implements the AVL Tree data structure to store English words and their meanings. 
+The program should be able to do the following:
+
+1. Import dictionary words from the file 29765-8.txt and insert them into an AVL tree. You will need to study this text file and 
+its accompanying README file to understand what needs to be extracted and inserted. No output is to be printed out during this process. 
+If a word already existed in the tree, append its definition to the existing node. 
+
+2. Once the insertion is complete, the program should print out a single number showing the height of the final AVL tree.
+
+3. In the next line, the program should print a single prompt with a space after ($ ) and wait for user to enter a command. 
+Once a proper command is entered, the program should carry out the corresponding task and then print out the prompt (with a space after) again, 
+unless the command is to quit. 
+  a. EXIT: to quit the program. 
+  
+  b. SEARCH WORD: search for WORD inside the dictionary. You can assume the WORD is going to be all uppercase. If WORD exists, print out all definitions of the word,
+  one per line. If WORD does not exist, print “WORD does not exist”.
+  
+4. If an invalid command is entered, print “Invalid command” and then print out the prompt to wait for the next command. 
+
+
+Notes from Tom: 
+So this repository has the AVL tree class that already does all the self balancing, has the insert methods the search methods, and it
+has a dictionary class, (the one i think i want to make my main since it will be reading it in from the files mentioned in the project, i will attach them to the
+repository. So the best way seems to search for uppercase letters, I think I overheard him say that that is the best thing anyone has come up with.
+It also already counts the height too. So basically I just need to read the words into their own nodes, then put the definition in the same node. and by "definition"
+it is literally everything that is not the actual word, I dont have to only extract certain parts. Tell me if this doesn't make sense.
